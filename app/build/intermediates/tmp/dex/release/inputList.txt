@@ -1,0 +1,9 @@
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/classes/release
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-dfb2e44308ca95cbdb7a575ec4fdc21e24db92dd.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/classes-238c1e2449c1eb66fa4a4f7407686dac576b1fcd.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/classes-21b58451c50beb97bf19dd25b42517806ff5bf75.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/picasso-2.4.0-fedb0b519370a833a952eff5ad2fb3f25870f82e.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-3b692f9b3d2813d1040be1abaed1f911a346cc0a.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/classes-af07dc9f65d5303aa2c5decb58f27048f603cbc7.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/classes-d9e2695b6eef888366710293c4e1d64c1032cd9a.jar
+/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/release/classes-0b4cac3fd9ba65353ad219c87feae5935617eab7.jar
