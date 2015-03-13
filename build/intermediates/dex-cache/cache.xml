@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-0b4cac3fd9ba65353ad219c87feae5935617eab7.jar" />
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-ec1eb055ddffaa096275b0df5caa9f51dec80c8b.jar" />
     </item>
     <item
         jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/classes.jar"
@@ -23,32 +23,18 @@
         <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-d9e2695b6eef888366710293c4e1d64c1032cd9a.jar" />
     </item>
     <item
-        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3b692f9b3d2813d1040be1abaed1f911a346cc0a.jar" />
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-9e5092edc509f75a57d702e5bdb5ef73466b3205.jar" />
     </item>
     <item
-        jar="/Users/tylerpfaff/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/Users/tylerpfaff/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-dfb2e44308ca95cbdb7a575ec4fdc21e24db92dd.jar" />
-    </item>
-    <item
-        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-238c1e2449c1eb66fa4a4f7407686dac576b1fcd.jar" />
-    </item>
-    <item
-        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-af07dc9f65d5303aa2c5decb58f27048f603cbc7.jar" />
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-5e2660a64d164533dcdb010036a4fdf4c61c2219.jar" />
     </item>
     <item
         jar="/Users/tylerpfaff/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
@@ -56,6 +42,27 @@
         revision="21.1.2"
         sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
         <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-fedb0b519370a833a952eff5ad2fb3f25870f82e.jar" />
+    </item>
+    <item
+        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-1a2cbf2362ab4ce26d14f841bff0a9ba265a2c4f.jar" />
+    </item>
+    <item
+        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-30de88e7d9ada1bfe2b11b8facc5465edc24d349.jar" />
+    </item>
+    <item
+        jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.tonicartos/superslim/0.4.5/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f377869eadd367e594775db4f806839a9934bca">
+        <dex dex="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/pre-dexed/debug/classes-ac5bfcddf1ab6ab2a9b0fae7366a468cfe4e978f.jar" />
     </item>
     <item
         jar="/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.8.0/classes.jar"

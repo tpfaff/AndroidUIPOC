@@ -15,7 +15,7 @@
 
     </style>
 
-    <style name="MyActionBarTheme" parent="@android:style/Widget.Material.Light.ActionBar">
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:background">#2196f3</item>
     </style>
 

@@ -3,12 +3,14 @@ package com.blastmotion.app.baseballmock;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
@@ -23,7 +25,9 @@ public class ActionDetailActivity extends Activity {
        // setContentView(R.layout.activity_action_detail);
 
 
-//        ColorDrawable colorDrawable=new ColorDrawable(0x2196f3);
+        ColorDrawable colorDrawable=new ColorDrawable(0x2196f3);
+        ColorDrawable clear=new ColorDrawable(0x80FFFFFF);
+        getActionBar().setBackgroundDrawable(clear);
 
         FadingActionBarHelper helper = new FadingActionBarHelper()
                 .actionBarBackground(R.drawable.bar_background)
@@ -35,7 +39,8 @@ public class ActionDetailActivity extends Activity {
         ImageView commonView=(ImageView)findViewById(R.id.sport_image);
         TextView commonText=(TextView)findViewById(R.id.textView_main_metric);
 
-        FloatingActionButton fab=(FloatingActionButton)findViewById(R.id.play_button);
+
+        FloatingActionButton fab=(FloatingActionButton)findViewById(R.id.floating_button);
         final Context thisActivity=this;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,12 +51,17 @@ public class ActionDetailActivity extends Activity {
         });
         ViewCompat.setTransitionName(commonView,"imageTransition");
         ViewCompat.setTransitionName(commonText,"textTransition");
+        ViewCompat.setTransitionName(fab,"fabTransition");
         //getActionBar().setTitle("");
     }
 
     @Override
     public  void onStart(){
         super.onStart();
+        getActionBar().setTitle("Details");
+        ScrollView scrollView=(ScrollView)findViewById(R.id.scrollView);
+        scrollView.scrollTo(50,300);
+        //ActionBar bar=getActionBar();
 
     }
 

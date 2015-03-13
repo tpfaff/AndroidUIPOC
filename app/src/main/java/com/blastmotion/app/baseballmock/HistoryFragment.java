@@ -28,12 +28,15 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
+
 public class HistoryFragment extends Fragment {
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
+
     private LinearLayoutManager mLayoutManager;
-    private boolean useFat=true;
+    public boolean useFat=true;
     public HistoryFragment(){
 
     }
@@ -42,15 +45,18 @@ public class HistoryFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
     }
+
+    @Nullable
     @Override
-    public void onStart() {
-        super.onStart();
+    public void onViewCreated(View view, Bundle savedInstanceState){
+        super.onViewCreated(view,savedInstanceState);
         GridView gridView;
         if(useFat) {
+         //   getActivity().setContentView(R.layout.grid_layout_fat);
             gridView = (GridView) getActivity().findViewById(R.id.gridview_fat);
         }else{
+       //     getActivity().setContentView(R.layout.grid_layout);
             gridView = (GridView) getActivity().findViewById(R.id.gridview);
 
         }
@@ -62,20 +68,56 @@ public class HistoryFragment extends Fragment {
                 TransitionInflater transitionInflater = TransitionInflater.from(getActivity());
                 ImageView commonImageView = (ImageView) v.findViewById(R.id.sport_image);
                 TextView  commonTextView=(TextView)v.findViewById(R.id.textView_main_metric);
+                FloatingActionButton fab=(FloatingActionButton)v.findViewById(R.id.floating_button);
                 // Now we can start the Activity, providing the activity options as a bundle
                 Intent intent = new Intent(getActivity(), ActionDetailActivity.class);
                 ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),
                         new Pair<View,String>(commonImageView,"imageTransition"),
                         new Pair<View,String>(commonTextView,"textTransition"));
-              // ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),new Pair<View,String>(commonImageView,"R.id.sport_image"),"sharedElementEnterTransition","sharedElementExitTransition"));
-               // ActivityOptions.makescenetran
+                        new Pair<View,String>(fab,"fabTransition");
+                // ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),new Pair<View,String>(commonImageView,"R.id.sport_image"),"sharedElementEnterTransition","sharedElementExitTransition"));
+                // ActivityOptions.makescenetran
 
 //
                 startActivity(intent, options.toBundle());
             }
         });
-       // this.getView().setBackground(new ColorDrawable(0xeeeeee));
     }
+//
+//    @Override
+//    public void onStart() {
+//        super.onStart();
+//        GridView gridView;
+//        if(useFat) {
+//            getActivity().setContentView(R.layout.grid_layout_fat);
+//            gridView = (GridView) getActivity().findViewById(R.id.gridview_fat);
+//        }else{
+//            getActivity().setContentView(R.layout.grid_layout);
+//            gridView = (GridView) getActivity().findViewById(R.id.gridview);
+//
+//        }
+//        gridView.setAdapter(new ImageAdapter(getActivity()));
+//        getActivity().getActionBar().setTitle("History");
+//        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+//
+//                TransitionInflater transitionInflater = TransitionInflater.from(getActivity());
+//                ImageView commonImageView = (ImageView) v.findViewById(R.id.sport_image);
+//                TextView  commonTextView=(TextView)v.findViewById(R.id.textView_main_metric);
+//                // Now we can start the Activity, providing the activity options as a bundle
+//                Intent intent = new Intent(getActivity(), ActionDetailActivity.class);
+//                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),
+//                        new Pair<View,String>(commonImageView,"imageTransition"),
+//                        new Pair<View,String>(commonTextView,"textTransition"));
+//              // ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(getActivity(),new Pair<View,String>(commonImageView,"R.id.sport_image"),"sharedElementEnterTransition","sharedElementExitTransition"));
+//               // ActivityOptions.makescenetran
+//
+////
+//                startActivity(intent, options.toBundle());
+//            }
+//        });
+//       // this.getView().setBackground(new ColorDrawable(0xeeeeee));
+//    }
 
 
 //        @Override

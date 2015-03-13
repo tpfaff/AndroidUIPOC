@@ -271,7 +271,7 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation"/>
     <!-- From: file:/Users/tylerpfaff/AndroidStudioProjects/BaseballMock/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
-    <style name="MyActionBarTheme" parent="@android:style/Widget.Material.Light.ActionBar">
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:background">#2196f3</item>
     </style>
     <style name="MyTabBarTheme" parent="@style/Widget.AppCompat.ActionBar.TabBar">

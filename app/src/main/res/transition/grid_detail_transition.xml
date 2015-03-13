@@ -26,6 +26,8 @@
     <!-- changeImageTransform is used for the ImageViews which are shared -->
     <changeImageTransform />
 
+    <changeTransform />
+
 
 </transitionSet>
 

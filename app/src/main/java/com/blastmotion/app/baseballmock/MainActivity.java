@@ -13,12 +13,13 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
     ViewPager tabBar;
     //MyAdapter adapter;
+    HistoryFragment historyFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        historyFragment=new HistoryFragment();
 
     }
 
@@ -31,7 +32,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionBar.addTab(actionBar.newTab().setText("HISTORY").setTabListener(this));
        // actionBar.addTab(actionBar.newTab().setText("CAMERA").setTabListener(this));
-        actionBar.addTab(actionBar.newTab().setText("METRICS").setTabListener(this));
+     //   actionBar.addTab(actionBar.newTab().setText("METRICS").setTabListener(this));
         actionBar.addTab(actionBar.newTab().setText("EQUIPMENT").setTabListener(this));
         //actionBar.addTab(actionBar.newTab().setText("SETTINGS").setTabListener(this));
         actionBar.setTitle("");
@@ -49,6 +50,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            this.historyFragment.useFat=!this.historyFragment.useFat;
             return true;
         }
 
@@ -72,7 +74,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         switch (tab.getPosition()){
             case HISTORY:
-                ft.replace(R.id.frame,new HistoryFragment());
+                ft.replace(R.id.frame,historyFragment);
                 break;
 
 //            case CAMERA:

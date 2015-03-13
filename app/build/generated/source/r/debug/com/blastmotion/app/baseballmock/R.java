@@ -1058,6 +1058,116 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int showText=0x7f010062;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int slm_grid_columnWidth=0x7f0100c4;
+        /** <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>auto_fit</code></td><td>-1</td><td></td></tr>
+</table>
+         */
+        public static final int slm_grid_numColumns=0x7f0100c5;
+        /** <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>inline</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x04</td><td></td></tr>
+<tr><td><code>overlay</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>sticky</code></td><td>0x10</td><td></td></tr>
+</table>
+         */
+        public static final int slm_headerDisplay=0x7f0100c7;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int slm_isHeader=0x7f0100c6;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int slm_section_firstPosition=0x7f0100c8;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
+</table>
+         */
+        public static final int slm_section_headerMarginEnd=0x7f0100cb;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
+</table>
+         */
+        public static final int slm_section_headerMarginStart=0x7f0100ca;
+        /** <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>linear</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>grid</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>staggered_grid</code></td><td>0x03</td><td></td></tr>
+</table>
+         */
+        public static final int slm_section_sectionManager=0x7f0100c9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1586,118 +1696,128 @@ containing a value of this type.
         public static final int sport_image_what=0x7f020041;
     }
     public static final class id {
-        public static final int action_bar=0x7f0a0039;
+        public static final int action_bar=0x7f0a0042;
         public static final int action_bar_activity_content=0x7f0a0000;
-        public static final int action_bar_container=0x7f0a0038;
-        public static final int action_bar_root=0x7f0a0034;
+        public static final int action_bar_container=0x7f0a0041;
+        public static final int action_bar_root=0x7f0a003d;
         public static final int action_bar_spinner=0x7f0a0001;
-        public static final int action_bar_subtitle=0x7f0a0027;
-        public static final int action_bar_title=0x7f0a0026;
-        public static final int action_context_bar=0x7f0a003a;
-        public static final int action_detail_card=0x7f0a0047;
+        public static final int action_bar_subtitle=0x7f0a0030;
+        public static final int action_bar_title=0x7f0a002f;
+        public static final int action_context_bar=0x7f0a0043;
+        public static final int action_detail_card=0x7f0a0050;
         public static final int action_menu_divider=0x7f0a0002;
         public static final int action_menu_presenter=0x7f0a0003;
-        public static final int action_mode_bar=0x7f0a0036;
-        public static final int action_mode_bar_stub=0x7f0a0035;
-        public static final int action_mode_close_button=0x7f0a0028;
-        public static final int action_settings=0x7f0a0070;
-        public static final int action_sort=0x7f0a0071;
-        public static final int activity_chooser_view_content=0x7f0a0029;
+        public static final int action_mode_bar=0x7f0a003f;
+        public static final int action_mode_bar_stub=0x7f0a003e;
+        public static final int action_mode_close_button=0x7f0a0031;
+        public static final int action_settings=0x7f0a007a;
+        public static final int action_sort=0x7f0a007b;
+        public static final int activity_chooser_view_content=0x7f0a0032;
         public static final int always=0x7f0a001c;
+        public static final int auto_fit=0x7f0a0026;
         public static final int beginning=0x7f0a0019;
         public static final int bottom=0x7f0a0024;
-        public static final int card_image=0x7f0a005a;
-        public static final int card_view=0x7f0a0059;
-        public static final int card_view_metrics=0x7f0a006e;
-        public static final int checkbox=0x7f0a0031;
+        public static final int card_image=0x7f0a0064;
+        public static final int card_view=0x7f0a0063;
+        public static final int card_view_metrics=0x7f0a0078;
+        public static final int checkbox=0x7f0a003a;
         public static final int collapseActionView=0x7f0a001d;
-        public static final int decor_content_parent=0x7f0a0037;
-        public static final int default_activity_button=0x7f0a002c;
+        public static final int decor_content_parent=0x7f0a0040;
+        public static final int default_activity_button=0x7f0a0035;
         public static final int dialog=0x7f0a0021;
         public static final int disableHome=0x7f0a000e;
         public static final int down=0x7f0a0018;
         public static final int dropdown=0x7f0a0022;
-        public static final int ea=0x7f0a0057;
-        public static final int edit_query=0x7f0a003b;
+        public static final int ea=0x7f0a0061;
+        public static final int edit_query=0x7f0a0044;
         public static final int end=0x7f0a001a;
-        public static final int expand_activities_button=0x7f0a002a;
-        public static final int expanded_menu=0x7f0a0030;
-        public static final int fab__container=0x7f0a0060;
-        public static final int fab__content_top_margin=0x7f0a0061;
-        public static final int fab__gradient=0x7f0a005d;
-        public static final int fab__header_container=0x7f0a005c;
-        public static final int fab__listview_background=0x7f0a005e;
-        public static final int fab__scroll_view=0x7f0a005f;
+        public static final int expand_activities_button=0x7f0a0033;
+        public static final int expanded_menu=0x7f0a0039;
+        public static final int fab__container=0x7f0a006a;
+        public static final int fab__content_top_margin=0x7f0a006b;
+        public static final int fab__gradient=0x7f0a0067;
+        public static final int fab__header_container=0x7f0a0066;
+        public static final int fab__listview_background=0x7f0a0068;
+        public static final int fab__scroll_view=0x7f0a0069;
         public static final int fab_expand_menu_button=0x7f0a0004;
-        public static final int fab_holder=0x7f0a0049;
+        public static final int fab_holder=0x7f0a0052;
         public static final int fab_label=0x7f0a0005;
-        public static final int firstDivider=0x7f0a004d;
-        public static final int frame=0x7f0a0056;
-        public static final int goto_first=0x7f0a0063;
-        public static final int goto_last=0x7f0a0064;
-        public static final int gridview=0x7f0a006a;
-        public static final int gridview_fat=0x7f0a006c;
-        public static final int history_recycler=0x7f0a006d;
+        public static final int firstDivider=0x7f0a0057;
+        public static final int floating_button=0x7f0a0053;
+        public static final int frame=0x7f0a0060;
+        public static final int goto_first=0x7f0a006d;
+        public static final int goto_last=0x7f0a006e;
+        public static final int grid=0x7f0a002b;
+        public static final int gridview=0x7f0a0074;
+        public static final int gridview_fat=0x7f0a0075;
+        public static final int history_recycler=0x7f0a0077;
         public static final int home=0x7f0a0006;
         public static final int homeAsUp=0x7f0a000f;
-        public static final int icon=0x7f0a002e;
+        public static final int icon=0x7f0a0037;
         public static final int ifRoom=0x7f0a001e;
-        public static final int image=0x7f0a002b;
+        public static final int image=0x7f0a0034;
+        public static final int inline=0x7f0a0027;
         public static final int left=0x7f0a0016;
+        public static final int linear=0x7f0a002c;
         public static final int listMode=0x7f0a000b;
-        public static final int list_item=0x7f0a002d;
-        public static final int metrics_recycler=0x7f0a006f;
+        public static final int list_item=0x7f0a0036;
+        public static final int match_header=0x7f0a002e;
+        public static final int metrics_recycler=0x7f0a0079;
         public static final int middle=0x7f0a001b;
         public static final int mini=0x7f0a0015;
         public static final int never=0x7f0a001f;
         public static final int none=0x7f0a0010;
         public static final int normal=0x7f0a000c;
-        public static final int pager=0x7f0a0062;
-        public static final int pink_icon=0x7f0a006b;
-        public static final int play_button=0x7f0a004b;
+        public static final int overlay=0x7f0a0028;
+        public static final int pager=0x7f0a006c;
+        public static final int pink_icon=0x7f0a0076;
         public static final int progress_circular=0x7f0a0007;
         public static final int progress_horizontal=0x7f0a0008;
-        public static final int radio=0x7f0a0033;
+        public static final int radio=0x7f0a003c;
         public static final int right=0x7f0a0017;
-        public static final int search_badge=0x7f0a003d;
-        public static final int search_bar=0x7f0a003c;
-        public static final int search_button=0x7f0a003e;
-        public static final int search_close_btn=0x7f0a0043;
-        public static final int search_edit_frame=0x7f0a003f;
-        public static final int search_go_btn=0x7f0a0045;
-        public static final int search_mag_icon=0x7f0a0040;
-        public static final int search_plate=0x7f0a0041;
-        public static final int search_src_text=0x7f0a0042;
-        public static final int search_voice_btn=0x7f0a0046;
-        public static final int secondDivider=0x7f0a0050;
-        public static final int shortcut=0x7f0a0032;
+        public static final int scrollView=0x7f0a0054;
+        public static final int search_badge=0x7f0a0046;
+        public static final int search_bar=0x7f0a0045;
+        public static final int search_button=0x7f0a0047;
+        public static final int search_close_btn=0x7f0a004c;
+        public static final int search_edit_frame=0x7f0a0048;
+        public static final int search_go_btn=0x7f0a004e;
+        public static final int search_mag_icon=0x7f0a0049;
+        public static final int search_plate=0x7f0a004a;
+        public static final int search_src_text=0x7f0a004b;
+        public static final int search_voice_btn=0x7f0a004f;
+        public static final int secondDivider=0x7f0a005a;
+        public static final int shortcut=0x7f0a003b;
         public static final int showCustom=0x7f0a0011;
         public static final int showHome=0x7f0a0012;
         public static final int showTitle=0x7f0a0013;
         public static final int split_action_bar=0x7f0a0009;
-        public static final int sport_image=0x7f0a0067;
-        public static final int sport_image_large=0x7f0a0048;
-        public static final int submit_area=0x7f0a0044;
-        public static final int swing_result=0x7f0a005b;
+        public static final int sport_image=0x7f0a0071;
+        public static final int sport_image_large=0x7f0a0051;
+        public static final int staggered_grid=0x7f0a002d;
+        public static final int start=0x7f0a0029;
+        public static final int sticky=0x7f0a002a;
+        public static final int submit_area=0x7f0a004d;
+        public static final int swing_result=0x7f0a0065;
         public static final int tabMode=0x7f0a000d;
-        public static final int text=0x7f0a0065;
-        public static final int textView=0x7f0a0066;
-        public static final int textView3=0x7f0a0069;
-        public static final int textView_fourth_metric=0x7f0a0055;
-        public static final int textView_fourth_metric_title=0x7f0a0054;
-        public static final int textView_main_metric=0x7f0a004c;
-        public static final int textView_main_metric_title=0x7f0a004a;
-        public static final int textView_second_metric=0x7f0a004f;
-        public static final int textView_second_metric_title=0x7f0a004e;
-        public static final int textView_third_metric=0x7f0a0052;
-        public static final int textView_third_metric_title=0x7f0a0051;
-        public static final int thirdDivider=0x7f0a0053;
-        public static final int title=0x7f0a002f;
+        public static final int text=0x7f0a006f;
+        public static final int textView=0x7f0a0070;
+        public static final int textView3=0x7f0a0073;
+        public static final int textView_fourth_metric=0x7f0a005f;
+        public static final int textView_fourth_metric_title=0x7f0a005e;
+        public static final int textView_main_metric=0x7f0a0056;
+        public static final int textView_main_metric_title=0x7f0a0055;
+        public static final int textView_second_metric=0x7f0a0059;
+        public static final int textView_second_metric_title=0x7f0a0058;
+        public static final int textView_third_metric=0x7f0a005c;
+        public static final int textView_third_metric_title=0x7f0a005b;
+        public static final int thirdDivider=0x7f0a005d;
+        public static final int title=0x7f0a0038;
         public static final int top=0x7f0a0025;
         public static final int up=0x7f0a000a;
         public static final int useLogo=0x7f0a0014;
-        public static final int videoSurface=0x7f0a0058;
-        public static final int view=0x7f0a0068;
+        public static final int videoSurface=0x7f0a0062;
+        public static final int view=0x7f0a0072;
         public static final int withText=0x7f0a0020;
         public static final int wrap_content=0x7f0a0023;
     }
@@ -5972,5 +6092,202 @@ containing a value of this type.
           @attr name android:layout
         */
         public static final int ViewStubCompat_android_layout = 1;
+        /** Attributes that can be used with a superslim_GridSLM.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #superslim_GridSLM_slm_grid_columnWidth com.blastmotion.app.baseballmock:slm_grid_columnWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_GridSLM_slm_grid_numColumns com.blastmotion.app.baseballmock:slm_grid_numColumns}</code></td><td></td></tr>
+           </table>
+           @see #superslim_GridSLM_slm_grid_columnWidth
+           @see #superslim_GridSLM_slm_grid_numColumns
+         */
+        public static final int[] superslim_GridSLM = {
+            0x7f0100c4, 0x7f0100c5
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_grid_columnWidth}
+          attribute's value can be found in the {@link #superslim_GridSLM} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.blastmotion.app.baseballmock:slm_grid_columnWidth
+        */
+        public static final int superslim_GridSLM_slm_grid_columnWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_grid_numColumns}
+          attribute's value can be found in the {@link #superslim_GridSLM} array.
+
+
+          <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>auto_fit</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name com.blastmotion.app.baseballmock:slm_grid_numColumns
+        */
+        public static final int superslim_GridSLM_slm_grid_numColumns = 1;
+        /** Attributes that can be used with a superslim_LayoutManager.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_headerDisplay com.blastmotion.app.baseballmock:slm_headerDisplay}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_isHeader com.blastmotion.app.baseballmock:slm_isHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_firstPosition com.blastmotion.app.baseballmock:slm_section_firstPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginEnd com.blastmotion.app.baseballmock:slm_section_headerMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_headerMarginStart com.blastmotion.app.baseballmock:slm_section_headerMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #superslim_LayoutManager_slm_section_sectionManager com.blastmotion.app.baseballmock:slm_section_sectionManager}</code></td><td></td></tr>
+           </table>
+           @see #superslim_LayoutManager_slm_headerDisplay
+           @see #superslim_LayoutManager_slm_isHeader
+           @see #superslim_LayoutManager_slm_section_firstPosition
+           @see #superslim_LayoutManager_slm_section_headerMarginEnd
+           @see #superslim_LayoutManager_slm_section_headerMarginStart
+           @see #superslim_LayoutManager_slm_section_sectionManager
+         */
+        public static final int[] superslim_LayoutManager = {
+            0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9,
+            0x7f0100ca, 0x7f0100cb
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_headerDisplay}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>inline</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>start</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>end</code></td><td>0x04</td><td></td></tr>
+<tr><td><code>overlay</code></td><td>0x08</td><td></td></tr>
+<tr><td><code>sticky</code></td><td>0x10</td><td></td></tr>
+</table>
+          @attr name com.blastmotion.app.baseballmock:slm_headerDisplay
+        */
+        public static final int superslim_LayoutManager_slm_headerDisplay = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_isHeader}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.blastmotion.app.baseballmock:slm_isHeader
+        */
+        public static final int superslim_LayoutManager_slm_isHeader = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_section_firstPosition}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.blastmotion.app.baseballmock:slm_section_firstPosition
+        */
+        public static final int superslim_LayoutManager_slm_section_firstPosition = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_section_headerMarginEnd}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name com.blastmotion.app.baseballmock:slm_section_headerMarginEnd
+        */
+        public static final int superslim_LayoutManager_slm_section_headerMarginEnd = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_section_headerMarginStart}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>match_header</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name com.blastmotion.app.baseballmock:slm_section_headerMarginStart
+        */
+        public static final int superslim_LayoutManager_slm_section_headerMarginStart = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.blastmotion.app.baseballmock.R.attr#slm_section_sectionManager}
+          attribute's value can be found in the {@link #superslim_LayoutManager} array.
+
+
+          <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>linear</code></td><td>0x01</td><td></td></tr>
+<tr><td><code>grid</code></td><td>0x02</td><td></td></tr>
+<tr><td><code>staggered_grid</code></td><td>0x03</td><td></td></tr>
+</table>
+          @attr name com.blastmotion.app.baseballmock:slm_section_sectionManager
+        */
+        public static final int superslim_LayoutManager_slm_section_sectionManager = 3;
     };
 }
